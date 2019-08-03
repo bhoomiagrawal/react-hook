@@ -30,9 +30,9 @@ function App() {
   //   // };
   // });
 
-  useEffect(() => {
-    console.log('other effect');
-  });
+  // useEffect(() => {
+  //   console.log('other effect');
+  // });
 
   const increment  = () => setCount(count + 1);
   useTitle(count);
